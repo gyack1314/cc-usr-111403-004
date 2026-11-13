@@ -1,0 +1,38 @@
+{
+  "source": [
+    {
+      "row_id": "r1",
+      "plant": "A",
+      "cost": 2
+    },
+    {
+      "row_id": "r2",
+      "plant": "B",
+      "cost": 3
+    },
+    {
+      "row_id": "r3",
+      "plant": "A",
+      "cost": 5
+    }
+  ],
+  "queries": [
+    {
+      "id": "cost",
+      "scope": "internal",
+      "speed": 2
+    },
+    {
+      "id": "supply",
+      "scope": "internal",
+      "speed": 1
+    },
+    {
+      "id": "public",
+      "scope": "public",
+      "speed": 1
+    }
+  ],
+  "memory_pages": 1,
+  "disk_pages": 3
+}
